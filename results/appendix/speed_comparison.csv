@@ -1,0 +1,16 @@
+family,variant,group,status,campaign_wall_s,observed_elapsed_s,gate_limit_s,Final,Query_AUC,engineering_only,performance_selection_evidence
+speed_matrix,old_m5,0,completed,1119.4263853870007,,,0.932033526,0.7874249519999998,True,False
+speed_matrix,fast_m5,0,completed,174.43494474,,,0.932033526,0.7874249519999998,True,False
+speed_matrix,reap10,0,completed,89.87107573899993,,,1.0,0.8441413329999999,True,False
+speed_matrix,reap100,0,completed,807.1417486460005,,,1.0,0.8441413329999999,True,False
+speed_matrix,fast_m5,1,completed,171.9623690059998,,,0.922559227,0.817630960125,True,False
+speed_matrix,reap100,1,completed,821.3238543420002,,,0.922559227,0.699446014375,True,False
+speed_matrix,old_m5,1,completed,1092.1858100999998,,,0.922559227,0.817630960125,True,False
+speed_matrix,reap10,1,completed,103.8604879279992,,,1.0,0.721619772,True,False
+speed_matrix,reap10,2,completed,86.08353356000043,,,1.0,0.80257910625,True,False
+speed_matrix,old_m5,2,completed,1044.9303879220006,,,0.922559227,0.798806978875,True,False
+speed_matrix,reap100,2,completed,827.3294519479987,,,1.0,0.78796255125,True,False
+speed_matrix,fast_m5,2,completed,167.4815581670009,,,0.922559227,0.798806978875,True,False
+m100_pilot,bata_m100_ts,0,failed,,1641.9589853286743,1614.283497292001,,,True,False
+m100_pilot,bata_m100_ts,1,failed,,1669.992862701416,1642.6477086840005,,,True,False
+m100_pilot,bata_m100_ts,2,failed,,1682.0653686523438,1654.6589038959974,,,True,False

@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/zyan-y/REAP",
+  "commit": "96c69e94b3b39c33ffb70ac394bd06022b4f035f",
+  "git_tree_sha": "119d489c5304946ddaf926c258e23f60c8317f3a",
+  "tree_api": "https://api.github.com/repos/zyan-y/REAP/git/trees/96c69e94b3b39c33ffb70ac394bd06022b4f035f",
+  "files_sha256": {
+    "src/reap/__init__.py": "45b062baa2b9dd7310364994a09f87d7dc8d21f28de8d7b765aa4d3e17d5b4cb",
+    "src/reap/assay.py": "1e28c9379de73c0e33b67ece9b56fe67a7d516e6ff808895d97f337576c0b092",
+    "src/reap/data.py": "b177047570b8377e0e88a7f995fbeb63e94e1c364a07c07392ae029b08552344",
+    "src/reap/embeddings.py": "faecccd8e7611ea2a443b3fb16c871d6840e290ca100f2e418f5a13146e64664",
+    "src/reap/esm_utils.py": "1817fbdab9dfa288a5832c3c2b0dedbceaf174c3bc8f4000347c06e981ca5866",
+    "src/reap/losses.py": "fd5f8ba9c8f8131c4f2a2a403b656cb3e92bd97149c46544c39080db98d3bbb5",
+    "src/reap/models.py": "34767dfd7e5f3f7415c8e7b6f0cb9124895ff17b0f8743bb8b904cb973be5c82",
+    "src/reap/mutation_design.py": "8ce3d006d2a22adf4388c4cd889213265d3f6236895db52d78f5d2a6f8ebe06e",
+    "src/reap/selection.py": "003cfc13b5b12d40319f9dc26e58ed391076f877b72f5dcfebb37e4a86eb2054",
+    "src/reap/sequence_utils.py": "5d2417f9231290b03062061807bd22f846d5acd05c1e5c80dfa6df3da8146897",
+    "src/reap/training.py": "34d472f9cbea316b7dc9d580989472417625d56f94fa0a2082b45d8ce7078ae8",
+    "src/reap/zero_shot.py": "d27ba73f10c45551af036749bf196210acf8566ad3e7244dc211c89bf689dec8"
+  },
+  "redistribution": "External dependency only; no upstream source or data bundled",
+  "revision_status": "Commit resolved through upstream GitHub commits API; all 12 local Python blobs match the frozen upstream snapshot"
+}

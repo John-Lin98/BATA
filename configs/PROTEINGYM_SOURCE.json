@@ -1,0 +1,32 @@
+{
+  "version": "1.3",
+  "record": "https://zenodo.org/records/15293562",
+  "archive_url": "https://zenodo.org/records/15293562/files/DMS_ProteinGym_substitutions.zip?download=1",
+  "metadata_url": "https://zenodo.org/records/15293562/files/DMS_substitutions.csv?download=1",
+  "archive_sha256": "3a83766254ac9ac9984ec25cb73c6e010ea4418f5e35f143933e6b6e6473b921",
+  "metadata_sha256": "a8f498011532a74aa9fe556a50555a75e928c5837d19c06a87592ae04049b308",
+  "redistribution": "No raw data redistributed; users obtain files from upstream",
+  "datasets": {
+    "PABP": {
+      "dataset_id": "PABP_YEAST_Melamed_2013",
+      "archive_member": "DMS_ProteinGym_substitutions/PABP_YEAST_Melamed_2013.csv",
+      "sha256": "ca083e6d93d6192223166836406be185ccaf54108c6f86b90e7b21dc5c5dd3ec",
+      "reference_sequence_sha256": "2a5b4c57f9bda382849bd13eb1b7bcd4431d5c6c112150ca982df5735975fbc6",
+      "msa_filename": "PABP_YEAST_full_11-26-2021_b07.a2m"
+    },
+    "HIS7": {
+      "dataset_id": "HIS7_YEAST_Pokusaeva_2019",
+      "archive_member": "DMS_ProteinGym_substitutions/HIS7_YEAST_Pokusaeva_2019.csv",
+      "sha256": "14e86d824a64557dbd3d1f3ed79976cb538848d49db90f29b169ca56390f1f3e",
+      "reference_sequence_sha256": "d8a86cdeaf8e8dc92742780d24c9526abc19a05518c02a1e730d0ac8d1c7043f",
+      "msa_filename": "HIS7_YEAST_full_11-26-2021_b09.a2m"
+    },
+    "GRB2": {
+      "dataset_id": "GRB2_HUMAN_Faure_2021",
+      "archive_member": "DMS_ProteinGym_substitutions/GRB2_HUMAN_Faure_2021.csv",
+      "sha256": "0a60d0e1855ebe79ad2d03aec5e4c5ae933f3f96d338d34c184ae7366fffc5e6",
+      "reference_sequence_sha256": "da732b5e8d2d70df356a38fcb7dcb1f2c8c200f00268f7978afe49f9a7b1783d",
+      "msa_filename": "GRB2_HUMAN_full_11-26-2021_b05.a2m"
+    }
+  }
+}

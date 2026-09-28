@@ -1,0 +1,28 @@
+{
+  "scope": "synthetic adapter parity crossing both 8192 and 32768 scoring blocks; not a full frozen trajectory",
+  "benchmark_recipe": "TrpB Fine-only M20",
+  "new_scientific_queries": 0,
+  "metadata_note": "Wrapper metadata names differ; numeric predictions and selections are compared",
+  "source_sha256": {
+    "publication_variant": "2b5a29e6d365114cd5ce1ceb7bbf09fe7926ea19e3f54b93712ec12db0a3cc0f",
+    "frozen_capacity_method": "1a27714af46db5d99af373e87d1739ffaea6968551f73323993c2e2b4a9b2e80"
+  },
+  "checks": [
+    {
+      "round": 1,
+      "observed": 96,
+      "candidates": 33104,
+      "member_count": 20,
+      "full_prediction_matrix_exact": true,
+      "ordered_indices_and_members_exact": true
+    },
+    {
+      "round": 4,
+      "observed": 384,
+      "candidates": 32816,
+      "member_count": 20,
+      "full_prediction_matrix_exact": true,
+      "ordered_indices_and_members_exact": true
+    }
+  ]
+}

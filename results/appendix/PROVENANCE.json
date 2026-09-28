@@ -1,0 +1,107 @@
+{
+  "scope": "Paper appendix and boundary evidence; distinct cohorts must not be pooled",
+  "source_summary_sha256": "e8f76a926157c0d6b0baa27b64bc1580c8527814e7c4a95f1b3ab702dcc571f8",
+  "outputs": [
+    {
+      "file": "ablation_per_run.csv",
+      "sha256": "c48b055e92d4567934aa13e30af2390d0b60f59d838e5c997856681732251ea1",
+      "rows": 360,
+      "source": "source_data/ablation_per_run.csv",
+      "source_sha256": "1acff03063c8325eacbcd68e6bfd0dd108f5c010501deb9c472812bf44e106be"
+    },
+    {
+      "file": "curves_per_run.csv",
+      "sha256": "2075de6248f901bdaf2ee8a9b1d2c71ea17ccece8044f0d8de238bacdfc7bfc4",
+      "rows": 3825,
+      "source": "source_data/curves_per_run.csv",
+      "source_sha256": "2075de6248f901bdaf2ee8a9b1d2c71ea17ccece8044f0d8de238bacdfc7bfc4"
+    },
+    {
+      "file": "curves_summary.csv",
+      "sha256": "f1dbdd75c53efe27c973b6efa1a0b03408fe9794025537de57fb71e010b41ff4",
+      "rows": 125,
+      "source": "source_data/curves_summary.csv",
+      "source_sha256": "f1dbdd75c53efe27c973b6efa1a0b03408fe9794025537de57fb71e010b41ff4"
+    },
+    {
+      "file": "weights_summary.csv",
+      "sha256": "25c2d380b0d094b6ccb20a34009414de098d6ccfed63253e163a2652235bd1fd",
+      "rows": 36,
+      "source": "source_data/weights_summary.csv",
+      "source_sha256": "25c2d380b0d094b6ccb20a34009414de098d6ccfed63253e163a2652235bd1fd"
+    },
+    {
+      "file": "Fig_capacity.csv",
+      "sha256": "937f513de2a23ce45513cebd9df1734e1498138f5dd60541878ee8fcdbb77089",
+      "rows": 5,
+      "source": "source_data/Fig_capacity.csv",
+      "source_sha256": "937f513de2a23ce45513cebd9df1734e1498138f5dd60541878ee8fcdbb77089"
+    },
+    {
+      "file": "Fig_trpb_finalization.csv",
+      "sha256": "0c9ab358a1438b5ee2bb8c1f2d9584c598d828bded5ba714ed43c59376d16aef",
+      "rows": 9,
+      "source": "source_data/Fig_trpb_finalization.csv",
+      "source_sha256": "0c9ab358a1438b5ee2bb8c1f2d9584c598d828bded5ba714ed43c59376d16aef"
+    },
+    {
+      "file": "runtime_summary.csv",
+      "sha256": "69f987e8d11fcca057b3b2a82e12a8c35317b86a63ece43c1acdfcf253051fe9",
+      "rows": 36,
+      "source": "source_data/runtime_summary.csv",
+      "source_sha256": "69f987e8d11fcca057b3b2a82e12a8c35317b86a63ece43c1acdfcf253051fe9"
+    },
+    {
+      "file": "transfer_per_run.csv",
+      "sha256": "158acec6b92e41cca0bc4242a0a0d6a677255d51e96b46df262cbe1d8acdb37d",
+      "rows": 240,
+      "source": "source_data/all_runs.csv",
+      "source_sha256": "b401681c9872daef6d7ffaeed9add74157aa9c7ea20bd0c18f77cb1e7c2219f7"
+    },
+    {
+      "file": "trpb_capacity_development_per_run.csv",
+      "sha256": "3a9610ff4f26cf88d441225a8e94797414baf5f9f713beddbfb7b931143da1b3",
+      "rows": 264,
+      "source": "source_data/all_runs.csv",
+      "source_sha256": "b401681c9872daef6d7ffaeed9add74157aa9c7ea20bd0c18f77cb1e7c2219f7"
+    },
+    {
+      "file": "ablation24.json",
+      "sha256": "d808676b5e1e238cc949fe5c5cea18cb70cc6813ab98e3649ec13cf679aa019d",
+      "source": "ANALYSIS.json",
+      "source_sha256": "e8f76a926157c0d6b0baa27b64bc1580c8527814e7c4a95f1b3ab702dcc571f8"
+    },
+    {
+      "file": "transfer24.json",
+      "sha256": "517ababbf4afe7556d1f5cb4ef308569e6a7b0116161bf261975b11b546a5917",
+      "source": "ANALYSIS.json",
+      "source_sha256": "e8f76a926157c0d6b0baa27b64bc1580c8527814e7c4a95f1b3ab702dcc571f8"
+    },
+    {
+      "file": "trpb_capacity_development24.json",
+      "sha256": "6e2a53be30bbaf04281f23104f6724511432db63ccc43089318a881e4cf6fdc4",
+      "source": "ANALYSIS.json",
+      "source_sha256": "e8f76a926157c0d6b0baa27b64bc1580c8527814e7c4a95f1b3ab702dcc571f8"
+    },
+    {
+      "file": "representation_capacity24.json",
+      "sha256": "29f8b2eb8ea7a2b20a10ecae80c07e3ed5744a3e8d42ae00f309e8c9006b2d5c",
+      "source": "ANALYSIS.json",
+      "source_sha256": "e8f76a926157c0d6b0baa27b64bc1580c8527814e7c4a95f1b3ab702dcc571f8"
+    },
+    {
+      "file": "pabp_low_budget48.json",
+      "sha256": "67a7feebee9feb1686c99195ccdf191a34cfe913a073b4de7a1920fe010b5356",
+      "source": "ANALYSIS.json",
+      "source_sha256": "e8f76a926157c0d6b0baa27b64bc1580c8527814e7c4a95f1b3ab702dcc571f8"
+    },
+    {
+      "file": "speed_comparison.csv",
+      "sha256": "0072b060d0946dd136c4ea22ca86735abdcea6fa654c2131dd32970314f25806",
+      "rows": 15,
+      "source": "FULL_COMPARISON.csv",
+      "source_sha256": "0072b060d0946dd136c4ea22ca86735abdcea6fa654c2131dd32970314f25806"
+    }
+  ],
+  "transformations": "CSV: omit path column only; JSON: explicit scientific-summary sections only. Numeric values unchanged."
+}

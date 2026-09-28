@@ -1,0 +1,50 @@
+{
+  "benchmark": "GB1",
+  "group": 0,
+  "cohort": "ablation24",
+  "checks": [
+    {
+      "method": "Global-MSE",
+      "rounds": 4,
+      "indices_members_scores_exact": true,
+      "history_and_metrics_exact": true,
+      "frozen_oracle_sha256": "46a7ea7cf0b0d0aacc41d12bbbca6653bacccc27d18edf988fc6521eac512884"
+    },
+    {
+      "method": "Equal-rank",
+      "rounds": 4,
+      "indices_members_scores_exact": true,
+      "history_and_metrics_exact": true,
+      "frozen_oracle_sha256": "19f9d7b45c4aefbd7b1c93c645ee63e1e679d137ae06932f14822b6cfabf562c"
+    },
+    {
+      "method": "Evolution-only",
+      "rounds": 4,
+      "indices_members_scores_exact": true,
+      "history_and_metrics_exact": true,
+      "frozen_oracle_sha256": "965916b202820b6ac09583b798a4a1fbe23dae9aa3b6d532b9e8630df794fdaf"
+    },
+    {
+      "method": "BATA",
+      "rounds": 4,
+      "indices_members_scores_exact": true,
+      "history_and_metrics_exact": true,
+      "frozen_oracle_sha256": "f891232b534ce2a775c4caa8a5667ca7ea9ae39d3767b7b81a8ba288d77d029f"
+    },
+    {
+      "method": "Matched-fine",
+      "rounds": 4,
+      "indices_members_scores_exact": true,
+      "history_and_metrics_exact": true,
+      "frozen_oracle_sha256": "c72acfb6527b267b18f6dace2e1a9ab7a9e4b39095f1e39a6b8b9f9e6097a163"
+    }
+  ],
+  "selection": "Fixed group0 for every control; no performance-based seed selection",
+  "limitation": "No claim of full cross-task or baseline replay coverage",
+  "implementation_sha256": {
+    "bata/core.py": "125c3d05e9a94d2c47afd478a53060b672d29e37214d21f5e072691391850f8b",
+    "bata/controls.py": "82503cc6a9abb0e266aa4f207142fbd1dbe7f005d8aacb96c566b51d5f50e887",
+    "bata/__main__.py": "c435102d02561397305cde4b0995da33ffd0513adefc2aa61a1c3fbcfaccdd14",
+    "scripts/reproduce_run.py": "1940f165ea01eb4a9c66e1d34a51e9b5c0682cf39a486a5ec32a8aab88f23b91"
+  }
+}

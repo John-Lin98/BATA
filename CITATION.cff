@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "BATA: Feedback-Calibrated Protein Optimization with Batch-Aligned Tail Arbitration"
+type: software
+authors:
+  - family-names: Lin
+    given-names: Zefeng
+    affiliation: School of Computer Science and Technology, University of Science and Technology of China
+  - family-names: Fang
+    given-names: Xianyong
+    affiliation: School of Computer Science and Technology, Anhui University
+  - family-names: Fu
+    given-names: Tianfan
+    affiliation: State Key Laboratory for Novel Software Technology at Nanjing University, School of Computer Science, Nanjing University
+  - family-names: Xu
+    given-names: Xiaohua
+    affiliation: School of Computer Science and Technology, University of Science and Technology of China
+repository-code: "https://github.com/John-Lin98/BATA"
+license: "Apache-2.0"
+abstract: >-
+  Publication code and frozen result summaries for Batch-Aligned Tail
+  Arbitration, a feedback-calibrated sequential protein optimizer.
+keywords:
+  - protein optimization
+  - sequential optimization
+  - active learning
+  - feedback calibration

@@ -1,0 +1,80 @@
+{
+  "PABP": {
+    "source_filename": "PABP_YEAST_full_11-26-2021_b07.a2m",
+    "source_sha256": "5042bb63da3c87faff94bd71be47f597b00d6ef4251b22137e00415a845888b5",
+    "full_length": 577,
+    "start": 126,
+    "stop": 200,
+    "raw_count": 7866,
+    "shape": [
+      7852,
+      75
+    ],
+    "encoded_sha256": "ca3361cdafbf5591014b7975a3e6b6df68ca953aad60eb7d9c0c239e89f37219",
+    "rule": "dot_to_gap_then_uppercase; gap_fraction<=0.5; canonical21; retain_order_and_duplicates"
+  },
+  "HIS7": {
+    "source_filename": "HIS7_YEAST_full_11-26-2021_b09.a2m",
+    "source_sha256": "3dabdedc4860c8bae921fe6e24764b9a5b82f511dbdec255f169df57addcb4f3",
+    "full_length": 220,
+    "start": 6,
+    "stop": 211,
+    "raw_count": 40154,
+    "shape": [
+      39863,
+      206
+    ],
+    "encoded_sha256": "4575c38882075562267bfabebe8bd9f2d6260500d91bed122933e24571012fde",
+    "rule": "dot_to_gap_then_uppercase; gap_fraction<=0.5; canonical21; retain_order_and_duplicates"
+  },
+  "GRB2": {
+    "source_filename": "GRB2_HUMAN_full_11-26-2021_b05.a2m",
+    "source_sha256": "052118b615bcf3dc54092215171bac2f9fae7df0da65fdff7565350da691f6fc",
+    "full_length": 217,
+    "start": 159,
+    "stop": 214,
+    "raw_count": 33228,
+    "shape": [
+      23970,
+      56
+    ],
+    "encoded_sha256": "0008ee9fe5cff073e3199e0b09d335b825bb8b124670878c03d025dc033f467f",
+    "rule": "dot_to_gap_then_uppercase; gap_fraction<=0.5; canonical21; retain_order_and_duplicates"
+  },
+  "GB1": {
+    "source_filename": "GB1_raw_alignment.a2m",
+    "source_url": "https://huggingface.co/jsunn-y/SGPO/resolve/73953f887a195e64474d15a0c893086b72493a33/data/hmmer/jackhmmer/GB1_alignment.a2m",
+    "source_revision": "73953f887a195e64474d15a0c893086b72493a33",
+    "redistribution": "Not redistributed; upstream HF license unspecified",
+    "source_sha256": "264e8cfa06d9de865ca83dc552596ee1434b2e9900c4ee4f149e96eb23f19b53",
+    "full_length": 56,
+    "start": 39,
+    "stop": 54,
+    "raw_count": 210,
+    "shape": [
+      205,
+      16
+    ],
+    "encoded_sha256": "80c6847deae59c95d02467c4715eeb17af2ad8b9b4fb7e520f37def03e3b3762",
+    "mode": "jackhmmer_grouped",
+    "rule": "remove_lowercase_and_dots; gap_fraction<=0.5; canonical21; group_first_occurrence_then_expand_counts"
+  },
+  "TrpB": {
+    "source_filename": "TrpB_raw_alignment.a2m",
+    "source_url": "https://huggingface.co/jsunn-y/SGPO/resolve/73953f887a195e64474d15a0c893086b72493a33/data/hmmer/jackhmmer/TrpB_alignment.a2m",
+    "source_revision": "73953f887a195e64474d15a0c893086b72493a33",
+    "redistribution": "Not redistributed; upstream HF license unspecified",
+    "source_sha256": "be9fbe7f2aabd53e68db51b316e0804540f982a9acc4acdaeb2683d4c33269b2",
+    "full_length": 389,
+    "start": 183,
+    "stop": 228,
+    "raw_count": 173566,
+    "shape": [
+      160618,
+      46
+    ],
+    "encoded_sha256": "c77d07935e0cf96d0bb2ecb295d6031114fa9a4dea720605e8f5977eb19d70d7",
+    "mode": "jackhmmer_grouped",
+    "rule": "remove_lowercase_and_dots; gap_fraction<=0.5; canonical21; group_first_occurrence_then_expand_counts"
+  }
+}

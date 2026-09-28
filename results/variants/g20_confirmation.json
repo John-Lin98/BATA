@@ -1,0 +1,343 @@
+{
+  "branch_summary": {
+    "GB1": {
+      "fine_fraction": 0.3,
+      "fine_rounds": 12,
+      "fusion_rounds": 28
+    },
+    "GRB2": {
+      "fine_fraction": 0.1,
+      "fine_rounds": 4,
+      "fusion_rounds": 36
+    },
+    "HIS7": {
+      "fine_fraction": 0.0,
+      "fine_rounds": 0,
+      "fusion_rounds": 40
+    },
+    "PABP": {
+      "fine_fraction": 0.05,
+      "fine_rounds": 2,
+      "fusion_rounds": 38
+    },
+    "TrpB": {
+      "fine_fraction": 0.3,
+      "fine_rounds": 12,
+      "fusion_rounds": 28
+    }
+  },
+  "claim_boundary": "fresh10 confirmation only; no threshold tuning on this cohort",
+  "independent_review": "unavailable",
+  "macro_Final_rank": {
+    "bata": 1.4,
+    "fine_m20": 2.4,
+    "g20": 2.2
+  },
+  "n_per_arm_benchmark": 10,
+  "n_runs": 150,
+  "primary": "Final@480",
+  "secondary": "Query-AUC",
+  "summary": {
+    "GB1": {
+      "Final_rank": {
+        "bata": 1,
+        "fine_m20": 2,
+        "g20": 3
+      },
+      "bata": {
+        "AUC_mean": 0.6793377513639276,
+        "AUC_sd": 0.09028602247451907,
+        "Final_mean": 0.8802401502245744,
+        "Final_sd": 0.12881936190518042,
+        "n": 10
+      },
+      "fine_m20": {
+        "AUC_mean": 0.6810601643965747,
+        "AUC_sd": 0.11409509650492966,
+        "Final_mean": 0.8549214590073714,
+        "Final_sd": 0.09606319484137395,
+        "n": 10
+      },
+      "g20": {
+        "AUC_mean": 0.6705282950851708,
+        "AUC_sd": 0.08489097925973717,
+        "Final_mean": 0.8518558896757218,
+        "Final_sd": 0.13075588733294866,
+        "n": 10
+      },
+      "g20_minus_bata": {
+        "AUC_ci95": [
+          -0.02266973556487082,
+          0.0
+        ],
+        "AUC_delta": -0.008809456278756723,
+        "Final_ci95": [
+          -0.07313045813655032,
+          0.0
+        ],
+        "Final_delta": -0.028384260548852347,
+        "losses": 2,
+        "ties": 8,
+        "wins": 0
+      },
+      "g20_minus_fine_m20": {
+        "AUC_ci95": [
+          -0.07763767640181847,
+          0.05895022999901693
+        ],
+        "AUC_delta": -0.010531869311403763,
+        "Final_ci95": [
+          -0.09355479831756375,
+          0.10250487899367308
+        ],
+        "Final_delta": -0.0030655693316495314,
+        "losses": 6,
+        "ties": 1,
+        "wins": 3
+      },
+      "g20_minus_stronger_fixed_Final": -0.02838426054885257,
+      "stronger_fixed": "bata"
+    },
+    "GRB2": {
+      "Final_rank": {
+        "bata": 1,
+        "fine_m20": 3,
+        "g20": 2
+      },
+      "bata": {
+        "AUC_mean": 0.5293231239602441,
+        "AUC_sd": 0.04871418815776765,
+        "Final_mean": 0.6276412288359428,
+        "Final_sd": 0.04305300157404426,
+        "n": 10
+      },
+      "fine_m20": {
+        "AUC_mean": 0.5369983904202071,
+        "AUC_sd": 0.052058782908817366,
+        "Final_mean": 0.5964024002733781,
+        "Final_sd": 0.059176068835316675,
+        "n": 10
+      },
+      "g20": {
+        "AUC_mean": 0.5400650634876747,
+        "AUC_sd": 0.04487705408173535,
+        "Final_mean": 0.6276412288359428,
+        "Final_sd": 0.04305300157404426,
+        "n": 10
+      },
+      "g20_minus_bata": {
+        "AUC_ci95": [
+          0.0,
+          0.026856992030206008
+        ],
+        "AUC_delta": 0.010741939527430666,
+        "Final_ci95": [
+          0.0,
+          0.0
+        ],
+        "Final_delta": 0.0,
+        "losses": 0,
+        "ties": 10,
+        "wins": 0
+      },
+      "g20_minus_fine_m20": {
+        "AUC_ci95": [
+          -0.041545777190647726,
+          0.04558067875251828
+        ],
+        "AUC_delta": 0.0030666730674674403,
+        "Final_ci95": [
+          -0.014024117098435162,
+          0.07650177422356441
+        ],
+        "Final_delta": 0.031238828562564623,
+        "losses": 3,
+        "ties": 3,
+        "wins": 4
+      },
+      "g20_minus_stronger_fixed_Final": 0.0,
+      "stronger_fixed": "bata"
+    },
+    "HIS7": {
+      "Final_rank": {
+        "bata": 1,
+        "fine_m20": 3,
+        "g20": 2
+      },
+      "bata": {
+        "AUC_mean": 1.324474780455125,
+        "AUC_sd": 0.10143505425810193,
+        "Final_mean": 1.413812298849,
+        "Final_sd": 0.16812083398981947,
+        "n": 10
+      },
+      "fine_m20": {
+        "AUC_mean": 1.2664833423442499,
+        "AUC_sd": 0.06119898456433552,
+        "Final_mean": 1.322662933432,
+        "Final_sd": 0.09527999893455245,
+        "n": 10
+      },
+      "g20": {
+        "AUC_mean": 1.324474780455125,
+        "AUC_sd": 0.10143505425810193,
+        "Final_mean": 1.413812298849,
+        "Final_sd": 0.16812083398981947,
+        "n": 10
+      },
+      "g20_minus_bata": {
+        "AUC_ci95": [
+          0.0,
+          0.0
+        ],
+        "AUC_delta": 0.0,
+        "Final_ci95": [
+          0.0,
+          0.0
+        ],
+        "Final_delta": 0.0,
+        "losses": 0,
+        "ties": 10,
+        "wins": 0
+      },
+      "g20_minus_fine_m20": {
+        "AUC_ci95": [
+          0.009734975591750027,
+          0.11120521599825582
+        ],
+        "AUC_delta": 0.05799143811087502,
+        "Final_ci95": [
+          0.010690824984425017,
+          0.18692832855617478
+        ],
+        "Final_delta": 0.091149365417,
+        "losses": 2,
+        "ties": 0,
+        "wins": 8
+      },
+      "g20_minus_stronger_fixed_Final": 0.0,
+      "stronger_fixed": "bata"
+    },
+    "PABP": {
+      "Final_rank": {
+        "bata": 1,
+        "fine_m20": 3,
+        "g20": 2
+      },
+      "bata": {
+        "AUC_mean": 1.929656802725,
+        "AUC_sd": 0.2198954282699715,
+        "Final_mean": 2.3131717116,
+        "Final_sd": 0.46510229188768165,
+        "n": 10
+      },
+      "fine_m20": {
+        "AUC_mean": 1.8487129701875002,
+        "AUC_sd": 0.18817098414990877,
+        "Final_mean": 2.0829548265000004,
+        "Final_sd": 0.3937958389651769,
+        "n": 10
+      },
+      "g20": {
+        "AUC_mean": 1.922653142075,
+        "AUC_sd": 0.21305018279853297,
+        "Final_mean": 2.2571424264,
+        "Final_sd": 0.422533550832259,
+        "n": 10
+      },
+      "g20_minus_bata": {
+        "AUC_ci95": [
+          -0.021010981949999997,
+          0.0
+        ],
+        "AUC_delta": -0.007003660649999998,
+        "Final_ci95": [
+          -0.16808785559999997,
+          0.0
+        ],
+        "Final_delta": -0.05602928519999999,
+        "losses": 1,
+        "ties": 9,
+        "wins": 0
+      },
+      "g20_minus_fine_m20": {
+        "AUC_ci95": [
+          -0.0045503198343751754,
+          0.1799240815124999
+        ],
+        "AUC_delta": 0.07394017188749995,
+        "Final_ci95": [
+          -0.07516983740000001,
+          0.45638017399999997
+        ],
+        "Final_delta": 0.1741875999,
+        "losses": 1,
+        "ties": 2,
+        "wins": 7
+      },
+      "g20_minus_stronger_fixed_Final": -0.05602928519999972,
+      "stronger_fixed": "bata"
+    },
+    "TrpB": {
+      "Final_rank": {
+        "bata": 3,
+        "fine_m20": 1,
+        "g20": 2
+      },
+      "bata": {
+        "AUC_mean": 0.8155283831,
+        "AUC_sd": 0.05449280829947329,
+        "Final_mean": 0.9399422414,
+        "Final_sd": 0.03188865948273388,
+        "n": 10
+      },
+      "fine_m20": {
+        "AUC_mean": 0.8055974045125002,
+        "AUC_sd": 0.11939630611421632,
+        "Final_mean": 0.9664545450999998,
+        "Final_sd": 0.06480292945805359,
+        "n": 10
+      },
+      "g20": {
+        "AUC_mean": 0.819637279225,
+        "AUC_sd": 0.05927866881146201,
+        "Final_mean": 0.955430396,
+        "Final_sd": 0.03853235359216878,
+        "n": 10
+      },
+      "g20_minus_bata": {
+        "AUC_ci95": [
+          0.0,
+          0.010272240312500014
+        ],
+        "AUC_delta": 0.004108896125000006,
+        "Final_ci95": [
+          0.0,
+          0.035878096799999995
+        ],
+        "Final_delta": 0.015488154599999993,
+        "losses": 0,
+        "ties": 7,
+        "wins": 3
+      },
+      "g20_minus_fine_m20": {
+        "AUC_ci95": [
+          -0.032267344159375023,
+          0.06657669766312493
+        ],
+        "AUC_delta": 0.014039874712499989,
+        "Final_ci95": [
+          -0.04362217409999999,
+          0.026558473752499086
+        ],
+        "Final_delta": -0.011024149099999981,
+        "losses": 4,
+        "ties": 5,
+        "wins": 1
+      },
+      "g20_minus_stronger_fixed_Final": -0.011024149099999825,
+      "stronger_fixed": "fine_m20"
+    }
+  },
+  "valid": true
+}

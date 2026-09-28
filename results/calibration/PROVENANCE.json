@@ -1,0 +1,76 @@
+{
+  "release": "bata-feedback-calibration-20260916-v1",
+  "source_release_sha256": "32cc710d8e14fc2e1baf026198dfefd014ab181183b822d9528eb03f460e5f01",
+  "cohort": "matched-objective24; not 35/70 seed main cohort",
+  "primary_metric": "Final@480",
+  "artifacts": [
+    {
+      "file": "calibration/matched_objective_per_run.csv",
+      "source_artifact": "matched_objective_per_run.csv",
+      "rows": 288,
+      "source_sha256": "f6fac63439eeccc336c4b7718e2a8d6fe8fa073cba188d96b1c2e138689992a9",
+      "sha256": "e68d55241b72a2ac7aa2b529eabc9a799f1af30b1023663908c0660e66731f61",
+      "removed_columns": [
+        "disposition",
+        "path",
+        "diagnostics_path"
+      ],
+      "numerical_values_unchanged": true
+    },
+    {
+      "file": "calibration/matched_objective_summary.csv",
+      "source_artifact": "matched_objective_summary.csv",
+      "rows": 12,
+      "source_sha256": "269f9d1dd2b8411ee72d284bd0ead2d7cbf374456384c4800ac54e2cdad3a0bb",
+      "sha256": "269f9d1dd2b8411ee72d284bd0ead2d7cbf374456384c4800ac54e2cdad3a0bb",
+      "removed_columns": [],
+      "numerical_values_unchanged": true
+    },
+    {
+      "file": "calibration/B96_paired_effects.csv",
+      "source_artifact": "B96_paired_effects.csv",
+      "rows": 18,
+      "source_sha256": "5443ed6c696c523a9b8748eb9dd810dcf6b6a04eff6ea527506f8969e9e374a4",
+      "sha256": "5443ed6c696c523a9b8748eb9dd810dcf6b6a04eff6ea527506f8969e9e374a4",
+      "removed_columns": [],
+      "numerical_values_unchanged": true
+    },
+    {
+      "file": "calibration/mean_rank.csv",
+      "source_artifact": "mean_rank.csv",
+      "rows": 4,
+      "source_sha256": "cf6277693fe2cb63e48357b1cc1fddde85ba3444c48a60bc7d7b37af453c6b71",
+      "sha256": "cf6277693fe2cb63e48357b1cc1fddde85ba3444c48a60bc7d7b37af453c6b71",
+      "removed_columns": [],
+      "numerical_values_unchanged": true
+    },
+    {
+      "file": "calibration/feedback_calibration_weights_per_round.csv",
+      "source_artifact": "feedback_calibration_weights_per_round.csv",
+      "rows": 1152,
+      "source_sha256": "90c8d5c851ab7b966089a1025f9ce7de0c1f70762633c527ee1342d6140c9f34",
+      "sha256": "90c8d5c851ab7b966089a1025f9ce7de0c1f70762633c527ee1342d6140c9f34",
+      "removed_columns": [],
+      "numerical_values_unchanged": true
+    },
+    {
+      "file": "calibration/common_calibration_diagnostics.csv",
+      "source_artifact": "common_calibration_diagnostics.csv",
+      "rows": 4608,
+      "source_sha256": "f76e838d4f43c91e40b7cf8d5f6c468c8301eda410c6ce7d01ef39f9706326f3",
+      "sha256": "f76e838d4f43c91e40b7cf8d5f6c468c8301eda410c6ce7d01ef39f9706326f3",
+      "removed_columns": [],
+      "numerical_values_unchanged": true
+    },
+    {
+      "file": "calibration/forward_batch_diagnostics.csv",
+      "source_artifact": "forward_batch_diagnostics.csv",
+      "rows": 1152,
+      "source_sha256": "b4a545131779c43784e4b8b4c2b2830073bdd6365bdc5ee734bde605fa459e61",
+      "sha256": "b4a545131779c43784e4b8b4c2b2830073bdd6365bdc5ee734bde605fa459e61",
+      "removed_columns": [],
+      "numerical_values_unchanged": true
+    }
+  ],
+  "independent_experiment_audit": "unavailable"
+}

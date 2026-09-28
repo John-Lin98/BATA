@@ -1,0 +1,80 @@
+{
+  "valid": true,
+  "completed": 118,
+  "failed": 0,
+  "primary": "Final@480",
+  "secondary": "Query-AUC",
+  "summary": {
+    "GB1": {
+      "n": 35,
+      "Fine_Final": 0.8433212457458188,
+      "Fine_Final_sd": 0.10957166158815315,
+      "Fine_AUC": 0.670760504587038,
+      "Fine_AUC_sd": 0.09648571333260977,
+      "BATA_Final": 0.8512221235009663,
+      "BATA_AUC": 0.6637554624967101,
+      "SOTA_method": "ALDE",
+      "SOTA_Final": 0.9346839826345404,
+      "SOTA_AUC": 0.711092066459411,
+      "Delta_vs_BATA_Final": -0.007900877755147473,
+      "Delta_vs_SOTA_Final": -0.09136273688872165
+    },
+    "PABP": {
+      "n": 35,
+      "Fine_Final": 2.2942662686571427,
+      "Fine_Final_sd": 0.4537676025187962,
+      "Fine_AUC": 1.9430807454357144,
+      "Fine_AUC_sd": 0.27328163915674086,
+      "BATA_Final": 2.4169243188285714,
+      "BATA_AUC": 1.952956461285714,
+      "SOTA_method": "EVOLVEpro650",
+      "SOTA_Final": 2.367571839,
+      "SOTA_AUC": 2.0122362408357146,
+      "Delta_vs_BATA_Final": -0.12265805017142872,
+      "Delta_vs_SOTA_Final": -0.07330557034285734
+    },
+    "HIS7": {
+      "n": 24,
+      "Fine_Final": 1.3374862882745833,
+      "Fine_Final_sd": 0.11746048640355794,
+      "Fine_AUC": 1.277026531824375,
+      "Fine_AUC_sd": 0.09243859659926745,
+      "BATA_Final": 1.3577193960141667,
+      "BATA_AUC": 1.304275085459323,
+      "SOTA_method": "RF-OneHot",
+      "SOTA_Final": 1.402759414195,
+      "SOTA_AUC": 1.294267577335573,
+      "Delta_vs_BATA_Final": -0.020233107739583422,
+      "Delta_vs_SOTA_Final": -0.06527312592041667
+    },
+    "GRB2": {
+      "n": 24,
+      "Fine_Final": 0.5856365672097882,
+      "Fine_Final_sd": 0.07170206411921622,
+      "Fine_AUC": 0.5065265119296227,
+      "Fine_AUC_sd": 0.06637670538757699,
+      "BATA_Final": 0.6141536067812895,
+      "BATA_AUC": 0.5361908737362574,
+      "SOTA_method": "REAP100",
+      "SOTA_Final": 0.6319039686772444,
+      "SOTA_AUC": 0.538762436154235,
+      "Delta_vs_BATA_Final": -0.028517039571501313,
+      "Delta_vs_SOTA_Final": -0.046267401467456226
+    },
+    "TrpB": {
+      "n": 70,
+      "Fine_Final": 0.9421825123571426,
+      "Fine_Final_sd": 0.06555076990084281,
+      "Fine_AUC": 0.7778459803392858,
+      "Fine_AUC_sd": 0.08875918306263775,
+      "BATA_Final": 0.9208985678,
+      "BATA_AUC": 0.7783280255392856,
+      "SOTA_method": "REAP100",
+      "SOTA_Final": 0.9349151136714285,
+      "SOTA_AUC": 0.7777491284214285,
+      "Delta_vs_BATA_Final": 0.021283944557142553,
+      "Delta_vs_SOTA_Final": 0.007267398685714286
+    }
+  },
+  "independent_review": "unavailable"
+}

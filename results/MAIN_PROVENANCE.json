@@ -1,0 +1,31 @@
+{
+  "source_summary_sha256": "e8f76a926157c0d6b0baa27b64bc1580c8527814e7c4a95f1b3ab702dcc571f8",
+  "source_csv_sha256": {
+    "all_runs.csv": "b401681c9872daef6d7ffaeed9add74157aa9c7ea20bd0c18f77cb1e7c2219f7",
+    "native70_per_run.csv": "3fb4320eac50f979c1ebf94d368adfa5b9f6c12762d6dbd6f176c5ded2fcf0e0"
+  },
+  "numerical_check": "Every cell mean and sample SD matches frozen ANALYSIS within 1e-14; per-run numeric strings unchanged",
+  "note": "Sensitivity70 contains GB1 and TrpB only; reuse main35 PABP for the published sensitivity rank, do not pool cohorts.",
+  "outputs": [
+    {
+      "file": "main35_per_run.csv",
+      "rows": 525,
+      "sha256": "6c478f7d192856b1decfc0e52e081fb83fff1a85df4d142ad92248ad8f8c708b"
+    },
+    {
+      "file": "main35_summary.csv",
+      "rows": 15,
+      "sha256": "64e4aab594519864f5bbf5e05937ed4364912ef2103d4fd2d1b99c72c1793805"
+    },
+    {
+      "file": "sensitivity70_per_run.csv",
+      "rows": 700,
+      "sha256": "c4586e7c46b6452ae0e4561080647e7d099220250bc2c5ee7764b3fe5fac260f"
+    },
+    {
+      "file": "sensitivity70_summary.csv",
+      "rows": 10,
+      "sha256": "cd3eb0f8624501d7201a1fc66918282cd642c33c347b42224ddb6645eb485cb0"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Frozen result SHA checks require CSV bytes to survive Windows/Linux checkouts.
+* text=auto eol=lf
+*.csv -text
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.tex text eol=lf

@@ -1,0 +1,17 @@
+{
+  "GB1": {
+    "url": "https://raw.githubusercontent.com/rotskoff-group/era-directed-evolution/1a90a860d793a72187f585e1c45fb0941cb7d609/pera/data/GB1/GB1.fasta",
+    "revision": "1a90a860d793a72187f585e1c45fb0941cb7d609",
+    "sha256": "f1acaa18f06a15a27d30cc57ebd2f2d40158d4a8d4e7bf6b60d742a178fc99ce"
+  },
+  "TrpB": {
+    "url": "https://www.rcsb.org/fasta/entry/8VHH/display",
+    "record": "https://www.rcsb.org/structure/8VHH",
+    "doi": "10.2210/pdb8VHH/pdb",
+    "entry_version": "1.0",
+    "entity": "8VHH_1",
+    "length": 397,
+    "sha256": "16cdbd97c8a7a898c966187feff25ca0b0a04b0f9b3d5fdbf294ba19dc0ccce4",
+    "note": "Exact frozen full context, including terminal His tag; do not trim or replace with wild-type UniProt."
+  }
+}

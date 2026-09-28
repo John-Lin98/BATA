@@ -1,0 +1,25 @@
+{
+  "artifacts": [
+    {
+      "file": "fine_m20_formal118_per_run.csv",
+      "sha256": "690c5ae77d06e0107c74a2e2ac9ae70a2ab40b3e9b9f58f223faf6ac76160553",
+      "rows": 118
+    },
+    {
+      "file": "g20_confirmation10_per_run.csv",
+      "sha256": "fac809251cd3e886f7bcc7d29ce36aae13acb2dcf878556a23777c0d3a3e4125",
+      "rows": 150
+    },
+    {
+      "file": "gate_development5_per_run.csv",
+      "sha256": "89d737497237b562fbf14ee3fd33efcd887bdc44714f600db4a58fec7fa8ef0b",
+      "rows": 125
+    },
+    {
+      "file": "fine_m20_trpb70_per_run.csv",
+      "sha256": "54e0c9a4440e081bddf8beabde279bab5df2ea535fbc5596d7359051fb068076",
+      "rows": 140
+    }
+  ],
+  "note": "TrpB70 separate from formal118; gate_development5 includes25 explicitly reused BATA controls, not new runs."
+}

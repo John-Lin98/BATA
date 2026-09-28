@@ -1,0 +1,18 @@
+\begin{figure}[t]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[font=\sffamily\fontsize{8.2}{9.5}\selectfont]
+\definecolor{bata}{HTML}{4D9B78}\definecolor{base}{HTML}{C8CED8}\definecolor{best}{HTML}{7F8FA6}\definecolor{ink}{HTML}{30343B}\definecolor{panel}{HTML}{F7F8FA}
+\tikzset{lab/.style={anchor=east,text=ink!85,font=\fontsize{7.8}{9}\selectfont}}
+\foreach \x in {0,5.55,11.10}{\fill[panel,rounded corners=5pt] (\x,0) rectangle ++(5.2,4.35);}
+\node[anchor=west,font=\bfseries] at (0.25,4.04) {(a) GB1};\node[anchor=east,text=ink!60] at (4.92,4.04) {35 seeds};
+\foreach \name/\val/\sd/\yy/\c in {BATA/0.8512/0.1083/3.38/bata,ALDE/0.9347/0.0904/2.78/best,EVOLVEpro/0.7344/0.0966/2.18/base,REAP100/0.8958/0.0944/1.58/base,RF/0.8294/0.1070/0.98/base}{\pgfmathsetmacro{\xx}{1.55+3.05*(\val-0.60)/(1.05-0.60)}\pgfmathsetmacro{\xl}{1.55+3.05*((\val-\sd)-0.60)/(1.05-0.60)}\pgfmathsetmacro{\xr}{1.55+3.05*((\val+\sd)-0.60)/(1.05-0.60)}\node[lab] at (1.43,\yy) {\name};\draw[ink!35,line width=.6pt](\xl,\yy)--(\xr,\yy);\draw[ink!35](\xl,\yy-.07)--(\xl,\yy+.07);\draw[ink!35](\xr,\yy-.07)--(\xr,\yy+.07);\fill[\c](\xx,\yy)circle(2.6pt);\node[anchor=west,font=\fontsize{7.2}{8.4}\selectfont,text=ink!65] at (\xx+.10,\yy){\val};}\draw[ink!30](1.55,.55)--(4.60,.55);\node[anchor=north] at (1.55,.48){.60};\node[anchor=north] at (4.60,.48){1.05};
+\node[anchor=west,font=\bfseries] at (5.80,4.04) {(b) PABP};\node[anchor=east,text=ink!60] at (10.47,4.04) {35 seeds};
+\foreach \name/\val/\sd/\yy/\c in {BATA/2.4169/0.4232/3.38/bata,ALDE/1.8183/0.1814/2.78/base,EVOLVEpro/2.3676/0.4745/2.18/best,REAP100/1.9960/0.2371/1.58/base,RF/1.9849/0.2533/0.98/base}{\pgfmathsetmacro{\xx}{7.10+3.05*(\val-1.45)/(2.95-1.45)}\pgfmathsetmacro{\xl}{7.10+3.05*((\val-\sd)-1.45)/(2.95-1.45)}\pgfmathsetmacro{\xr}{7.10+3.05*((\val+\sd)-1.45)/(2.95-1.45)}\node[lab] at (6.98,\yy){\name};\draw[ink!35,line width=.6pt](\xl,\yy)--(\xr,\yy);\draw[ink!35](\xl,\yy-.07)--(\xl,\yy+.07);\draw[ink!35](\xr,\yy-.07)--(\xr,\yy+.07);\fill[\c](\xx,\yy)circle(2.6pt);\node[anchor=west,font=\fontsize{7.2}{8.4}\selectfont,text=ink!65] at (\xx+.10,\yy){\val};}\draw[ink!30](7.10,.55)--(10.15,.55);\node[anchor=north] at (7.10,.48){1.45};\node[anchor=north] at (10.15,.48){2.95};
+\node[anchor=west,font=\bfseries] at (11.35,4.04) {(c) TrpB};\node[anchor=east,text=ink!60] at (16.02,4.04) {35 seeds};
+\foreach \name/\val/\sd/\yy/\c in {BATA/0.9209/0.0422/3.38/bata,ALDE/0.8958/0.1099/2.78/base,EVOLVEpro/0.8982/0.0839/2.18/base,REAP100/0.8858/0.1177/1.58/base,RF/0.8934/0.1224/0.98/base}{\pgfmathsetmacro{\xx}{12.65+3.05*(\val-0.70)/(1.05-0.70)}\pgfmathsetmacro{\xl}{12.65+3.05*((\val-\sd)-0.70)/(1.05-0.70)}\pgfmathsetmacro{\xr}{12.65+3.05*((\val+\sd)-0.70)/(1.05-0.70)}\node[lab] at (12.53,\yy){\name};\draw[ink!35,line width=.6pt](\xl,\yy)--(\xr,\yy);\draw[ink!35](\xl,\yy-.07)--(\xl,\yy+.07);\draw[ink!35](\xr,\yy-.07)--(\xr,\yy+.07);\fill[\c](\xx,\yy)circle(2.6pt);\node[anchor=west,font=\fontsize{7.2}{8.4}\selectfont,text=ink!65] at (\xx+.10,\yy){\val};}\draw[ink!30](12.65,.55)--(15.70,.55);\node[anchor=north] at (12.65,.48){.70};\node[anchor=north] at (15.70,.48){1.05};
+\node[anchor=west,font=\bfseries,text=bata] at (.30,.18){BATA Final mean rank = 1.67};\node[anchor=east,text=ink!55] at (16.15,.18){dots: mean Final@480; whiskers: $\pm$ SD};
+\end{tikzpicture}}
+\caption{\textbf{Main optimization performance under the matched 35-seed protocol.} BATA attains the best cross-task Final mean rank (1.67), leading on PABP and TrpB while ALDE is strongest on GB1. Each panel uses its benchmark's native fitness scale; higher is better.}
+\label{fig:main_performance}
+\end{figure}

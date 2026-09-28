@@ -1,0 +1,5 @@
+-r requirements.txt
+# Install the matching CUDA wheel separately for formal GPU baselines.
+torch==2.2.0
+pandas==2.3.3
+# REAP must be installed separately at the revision in manifests/REAP_DEPENDENCY.json.

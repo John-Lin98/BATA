@@ -1,0 +1,11 @@
+{
+  "source": "Current paper figure sources, 2026-09-21 read-back",
+  "transformation": "None; byte-identical copies verified against source sha256sum",
+  "files": {
+    "figure1_story.tex": "09fbbfe164c0bb543800a50f2209347f000ee4c3b9b7b3b19dcaa80ac45d7012",
+    "figure2_main_results.tex": "46c89a14d5348ca2c31ac16c94120cc2a8aad4543afde5ddbec3b0d08e73f8c1",
+    "figure3_mechanism.tex": "3e378679952b73d308af30750f52fdd934402943ec39fd66ad84a7bd3968ffa9"
+  },
+  "compile_status": "Not yet verified; local pdflatex unavailable",
+  "cohort_note": "Figure 3c TrpB compares Fine-only M20 n=70 with BATA main35 descriptively; not a paired effect"
+}

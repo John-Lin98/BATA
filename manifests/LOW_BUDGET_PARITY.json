@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "arm": "random_init",
+      "sim": 0,
+      "round": 2,
+      "indices_scores_weights_exact": true
+    },
+    {
+      "arm": "random_init",
+      "sim": 0,
+      "round": 3,
+      "indices_scores_weights_exact": true
+    },
+    {
+      "arm": "zero_shot_init",
+      "sim": 0,
+      "round": 2,
+      "indices_scores_weights_exact": true
+    },
+    {
+      "arm": "zero_shot_init",
+      "sim": 0,
+      "round": 3,
+      "indices_scores_weights_exact": true
+    }
+  ],
+  "source_job_manifest_sha256": "88220f5e0c90d967bfd991dd013a6ae3e804038861cfb9c7108dff66c2af89d7",
+  "adapter_sha256": "0b1a7b3f716affb7ce5d5d012ed2e4d8cb3c4758e01c9ce75279cae98f68e232",
+  "scope": "Fixed sim0 both arms, rounds2/3 numeric adapter; CLI full trajectory not covered"
+}

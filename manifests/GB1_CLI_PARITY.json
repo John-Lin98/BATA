@@ -1,0 +1,53 @@
+{
+  "benchmark": "GB1",
+  "cohort": "main35",
+  "group": 0,
+  "method": "BATA",
+  "selection": "Fixed group 0 before replay, not selected by performance",
+  "check": "Existing frozen run reproduction, not a new scientific run",
+  "oracle_sha256": "f891232b534ce2a775c4caa8a5667ca7ea9ae39d3767b7b81a8ba288d77d029f",
+  "frozen_metrics_sha256": "ef219f43a00350b1562f54380c3a294d5b13203ce754a7f23f7cf42c78b57cf6",
+  "rounds": [
+    {
+      "round": 1,
+      "indices_exact": true,
+      "members_exact": true,
+      "scores_exact": true,
+      "prior_weight_exact": true,
+      "output_sha256": "3929ac9b2117a5cbed27774c86bb85260ac7403b6e380a303303d8b59fc5fb5f"
+    },
+    {
+      "round": 2,
+      "indices_exact": true,
+      "members_exact": true,
+      "scores_exact": true,
+      "prior_weight_exact": true,
+      "output_sha256": "745f264fa8aa065569887c8124923f99f34a64d12e6dac52d3792dfde2e5d93f"
+    },
+    {
+      "round": 3,
+      "indices_exact": true,
+      "members_exact": true,
+      "scores_exact": true,
+      "prior_weight_exact": true,
+      "output_sha256": "9df650d2cbdd813b0a7e8ac6afacb62dfd49040d9c20031a1af05576741011bf"
+    },
+    {
+      "round": 4,
+      "indices_exact": true,
+      "members_exact": true,
+      "scores_exact": true,
+      "prior_weight_exact": true,
+      "output_sha256": "450cb1890475b5061ea5fb3cc30b091dc7419097a1a0139d4fcba3817a82268b"
+    }
+  ],
+  "metrics_exact": true,
+  "implementation_sha256": {
+    "scripts/reproduce_run.py": "b9424194c42f7a9f5e9d89f0232a96a0387ed6a7e420a54b75e65b01d2f75cb7",
+    "bata/evaluation.py": "fbda600d762a7833eecfcdd0e3df8bc446fa84ece1f6d6b8ea3d1c09f9b6ba5e",
+    "bata/__main__.py": "3c42247b9c846d15475b5dbf7aa12086d63f17b52f788389f73873ac45988f40",
+    "bata/core.py": "125c3d05e9a94d2c47afd478a53060b672d29e37214d21f5e072691391850f8b",
+    "bata/calibration.py": "f428e6e43d6e216d71751e66da8f3a223c95d9f6fbfdefbb3da2078f3a85babe"
+  },
+  "limitation": "Only this fixed GB1 BATA trajectory verified; not all methods or tasks"
+}

@@ -1,0 +1,28 @@
+{
+  "artifacts": [
+    {
+      "file": "variants/fine_only_m20.json",
+      "source_artifact": "FINAL_SUMMARY.json",
+      "source_sha256": "b2b7f8a36b7d41275857eb47a77be79e4979e37dd326b44bd6b8b030fd72c857",
+      "sha256": "88c0c7536d7316ee98695ffc41892fcbacb195444a08aaa9e551514a9fc81788",
+      "numeric_fields_unchanged": true
+    },
+    {
+      "file": "variants/g20_confirmation.json",
+      "source_artifact": "C1_FINAL_SUMMARY.json",
+      "source_sha256": "d0a58ad28e584a6523f777cdfd63232c5628fbd521731a795287e5ebd5d47d6e",
+      "sha256": "45d24bac5d4ad36a239014843428da749457a5dc0e7221b21c1a0957dc380bc9",
+      "numeric_fields_unchanged": true
+    },
+    {
+      "file": "variants/gate_development.json",
+      "source_artifact": "GATE_DEV5_SUMMARY.json",
+      "source_sha256": "c5b98cf9e57b7f5bb10cdd73dade67da731885b8d1e151e8388f430a26ccf598",
+      "sha256": "dc046d5c16b503d39c331fbe0f4d359be6a340cadcd00dccc1b424fa2be7542f",
+      "numeric_fields_unchanged": true
+    }
+  ],
+  "primary_method": "BATA original M5",
+  "interpretation": "These variants do not replace the primary method.",
+  "known_source_issue": "Fine-only TrpB n=70 compares to BATA Final=0.9208985678 from main35; this is not a matched 70-seed difference. Original summary preserved, not silently corrected."
+}

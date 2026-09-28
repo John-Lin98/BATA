@@ -1,0 +1,62 @@
+{
+  "artifacts": [
+    {
+      "file": "main35.json",
+      "sha256": "a3b394364ee004fcadcd40e69356a2cf589a9326b52784bbf6156890b006bcb0",
+      "arm_runs": 525,
+      "distinct_initializations": 105
+    },
+    {
+      "file": "sensitivity70.json",
+      "sha256": "c13b0a70f8e9409ef35ecdd42666b55aa471cc56ae7886a8c065af6d92a52ab6",
+      "arm_runs": 700,
+      "distinct_initializations": 140
+    },
+    {
+      "file": "matched_objective24.json",
+      "sha256": "051cf5edd83fa66f950cb9856ca47bbe99878295719aee052c64fdacc285a320",
+      "arm_runs": 288,
+      "distinct_initializations": 72
+    },
+    {
+      "file": "ablation24.json",
+      "sha256": "0ee6e9d8de7bfe41ec4644edcd6352bc5226f03ba903f78a480fc34b3871994b",
+      "arm_runs": 360,
+      "distinct_initializations": 72,
+      "source_summary_sha256": "1acff03063c8325eacbcd68e6bfd0dd108f5c010501deb9c472812bf44e106be"
+    },
+    {
+      "file": "transfer24.json",
+      "sha256": "321f32ef9af7e95f2f12ea24c01d4f011b2c80271ce7a878b6b7374d669c7a35",
+      "arm_runs": 240,
+      "distinct_initializations": 48,
+      "source_summary_sha256": "b401681c9872daef6d7ffaeed9add74157aa9c7ea20bd0c18f77cb1e7c2219f7"
+    },
+    {
+      "file": "fine_m20_formal118.json",
+      "sha256": "3021abf1e0d9f1b896c9a52255fc2aef6263d542d2dd230a4ec25d863a057b60",
+      "arm_runs": 118,
+      "distinct_initializations": 118
+    },
+    {
+      "file": "g20_confirmation10.json",
+      "sha256": "00d593ea0c85f561d5c9d5307b60092784f0d306736bcce89e50fee584bdf589",
+      "arm_runs": 150,
+      "distinct_initializations": 50
+    },
+    {
+      "file": "gate_development5.json",
+      "sha256": "b75fb22bf3467c754f64cf10864ce8d3aaf3865683edf6c4d3297f29daf59af6",
+      "arm_runs": 125,
+      "distinct_initializations": 25
+    },
+    {
+      "file": "fine_m20_trpb70.json",
+      "sha256": "9ebcbc82097f763f265ef069f79d6c058ab7a9e4a7eaba50431f0c8557e136ef",
+      "arm_runs": 140,
+      "distinct_initializations": 70
+    }
+  ],
+  "feature_row_identity_required": true,
+  "note": "Indices require exact source dataset ordering; acquisition documentation must bind dataset revision and row identity. No labels or sequences included."
+}

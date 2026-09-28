@@ -1,0 +1,12 @@
+asset_class,decision,reason,reader_alternative
+Legacy research frameworks and evolution history,exclude,Not part of the BATA paper method,None required
+Internal task logs and handoffs,exclude,Operational history rather than reproducibility assets,Public reproducibility documentation
+Raw run trees and oracle states,exclude,Contain full feedback and operational artifacts,Per-run summaries and frozen initialization manifests
+Dispatcher queues and command receipts,exclude,Server-specific execution machinery,Portable CLI entry points
+Failed raw logs,exclude,Large internal debugging output,Paper-used negative-result summaries retained
+Third-party pretrained weights,exclude,External model assets and redistribution boundary,Pinned source and checkpoint SHA
+Raw assay datasets and alignments,exclude,External data assets and redistribution boundary,Source URLs revisions SHA and preparation scripts
+Embeddings and feature caches,exclude,Large derived artifacts,Feature reconstruction and identity verification scripts
+Credentials tokens browser profiles and SSH material,exclude,Secrets must never enter release,User authenticates locally
+Other project assets,exclude,Outside BATA publication scope,None required
+HF reference states,exclude_from_GitHub,Separate reference-state release after parity and rights review,Hugging Face repository linked in README

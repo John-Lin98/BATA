@@ -1,0 +1,197 @@
+{
+  "GB1": {
+    "candidate_count": 149361,
+    "source_config_sha256": "76e4a1ed7ae748156b73eeb6117d6830d72c202be5034f380655acce1349c662",
+    "ordered_candidate_identity_sha256": "9f246b571c68f24cc75cd191642c2c6de016d640a432b952449c1e3554ce0299",
+    "identity_encoding": "UTF-8 JSON ordered candidate strings, ensure_ascii=True, separators comma/colon",
+    "tokens_shape": [
+      149361,
+      4
+    ],
+    "dca_shape": [
+      149361,
+      16
+    ],
+    "plm_shape": [
+      149361,
+      1280
+    ],
+    "plm_sha256": "354a426a53438472355a91b758327537d34979eebd51df2652662857a483e9b6",
+    "plm_numeric_recipe": "FP32 no TF32",
+    "source_artifacts": {
+      "tokens": {
+        "sha256": "b47b0988f54da53b59f07caef218e4e5fd5e80760e1e4a100ddd123c3c024a1c",
+        "distributed": false
+      },
+      "dca_features": {
+        "sha256": "4ba1b83107eb76a1eadecf38e71de282a1c709c24e1fc4c62b3fd5467e511830",
+        "distributed": false
+      },
+      "public_domain": {
+        "sha256": "b4faac255320c04935749aa83cfff1968a8dd7dd34a2919292a7ac930f1cc8fe",
+        "distributed": false
+      },
+      "fitness_csv": {
+        "sha256": "0555c9300cd73bf63b654b486d2cfba63fa4a8f55a4c3bc29563ee6ee031db5a",
+        "distributed": false
+      }
+    },
+    "upstream_acquisition_status": "revision/license/processing documentation pending"
+  },
+  "PABP": {
+    "candidate_count": 37708,
+    "source_config_sha256": "0bf987d25d52de0f749c590eda01fbf1594e8cf0a74c2f4d64d0f96a3891ffcc",
+    "ordered_candidate_identity_sha256": "835eb00f519c007c1b44dc0c3c14eec007c3ff13a892c0616483a83794073762",
+    "identity_encoding": "UTF-8 JSON ordered candidate strings, ensure_ascii=True, separators comma/colon",
+    "tokens_shape": [
+      37708,
+      75
+    ],
+    "dca_shape": [
+      37708,
+      75
+    ],
+    "plm_shape": [
+      37708,
+      1280
+    ],
+    "plm_sha256": "9387b2c31f519c5ca6155310e96c6abfd86079618e0bd4ad2609d69116f5fabc",
+    "plm_numeric_recipe": "FP32 output, numerically qualified 3xBF16-product GEMM, FP32 attention/norm/pooling",
+    "source_artifacts": {
+      "tokens": {
+        "sha256": "84c08b59db0fdc4c2f0682f17787165d2569c32b5737270acb5c015f8960acf9",
+        "distributed": false
+      },
+      "dca_features": {
+        "sha256": "d5ec253dc40f7366df244037ac4a00a4ebaecd0689563897a71594bd2eb5aac1",
+        "distributed": false
+      },
+      "public_domain": {
+        "sha256": "12d612ac1dc23b1c97576ff6ba98bbceaf449360d3af2790ee21625ea2ef72f0",
+        "distributed": false
+      },
+      "fitness_csv": {
+        "sha256": "ca083e6d93d6192223166836406be185ccaf54108c6f86b90e7b21dc5c5dd3ec",
+        "distributed": false
+      }
+    },
+    "upstream_acquisition_status": "revision/license/processing documentation pending"
+  },
+  "TrpB": {
+    "candidate_count": 159129,
+    "source_config_sha256": "b8344badbb0625d1ce87d7324a5d4ed01d709a340e75b51941bbda1b5daa110f",
+    "ordered_candidate_identity_sha256": "a523874fad26489674c8221fd5ccda52e7baeb9cd22f5b7a409d81adcbcb9797",
+    "identity_encoding": "UTF-8 JSON ordered candidate strings, ensure_ascii=True, separators comma/colon",
+    "tokens_shape": [
+      159129,
+      4
+    ],
+    "dca_shape": [
+      159129,
+      46
+    ],
+    "plm_shape": [
+      159129,
+      1280
+    ],
+    "plm_sha256": "f23e18b4ac908b1cbda30bda2d424af5b94f1f6f847398727a03a3be9d86e693",
+    "plm_numeric_recipe": "FP32 output, numerically qualified 3xBF16-product GEMM, FP32 attention/norm/pooling",
+    "source_artifacts": {
+      "tokens": {
+        "sha256": "894da1f9194d0a8e3fe52132a174db7156b4472d4a40d19866413376738d899d",
+        "distributed": false
+      },
+      "dca_features": {
+        "sha256": "204666b7bf7e711217b69e32f2c7a42ba29d37ecbf8f695cfaf7c6517209ca40",
+        "distributed": false
+      },
+      "public_domain": {
+        "sha256": "0758b58a0c3771051fa0fdc8b9b2607eca97dcbfce7c8893db6e98e2c68c043b",
+        "distributed": false
+      },
+      "fitness_csv": {
+        "sha256": "f60240bb2361ea3e36cf63ca27909500b0f42d6a79fc0711b72d26f7097139b3",
+        "distributed": false
+      }
+    },
+    "upstream_acquisition_status": "revision/license/processing documentation pending"
+  },
+  "HIS7": {
+    "candidate_count": 496137,
+    "source_config_sha256": "f90e6ff912e9f1270cbb31160e56c73c2e929d2360214a19ee8b63760f9cc980",
+    "ordered_candidate_identity_sha256": "2b89204872e1ddc9ec729b6ae62be57bf1b47c551d5737bcad036d2c3b8b6214",
+    "identity_encoding": "UTF-8 JSON ordered candidate strings, ensure_ascii=True, separators comma/colon",
+    "tokens_shape": [
+      496137,
+      206
+    ],
+    "dca_shape": [
+      496137,
+      206
+    ],
+    "plm_shape": [
+      496137,
+      1280
+    ],
+    "plm_sha256": "bf533aae9b061f70775a35f0b55141ef7f1176fd21122a83a3225ef991888919",
+    "plm_numeric_recipe": "FP32 output, numerically qualified 3xBF16-product GEMM, FP32 attention/norm/pooling",
+    "source_artifacts": {
+      "tokens": {
+        "sha256": "23e2eb3fc0638467953f59d069b2d81cdabb688cc606bfe7263a666b9a19b834",
+        "distributed": false
+      },
+      "dca_features": {
+        "sha256": "a6e2c10473e9e13cbff0e76e39ea2b2b0d15873bf6b5c7d20778843065ca596e",
+        "distributed": false
+      },
+      "public_domain": {
+        "sha256": "3c0425c466f281383800fa85c023363f0eb496c0fb0da402c49581a0d0b15895",
+        "distributed": false
+      },
+      "fitness_csv": {
+        "sha256": "14e86d824a64557dbd3d1f3ed79976cb538848d49db90f29b169ca56390f1f3e",
+        "distributed": false
+      }
+    },
+    "upstream_acquisition_status": "revision/license/processing documentation pending"
+  },
+  "GRB2": {
+    "candidate_count": 63366,
+    "source_config_sha256": "b8a2ea6c83f44cf1a8cbcfc1b0d6f94c44a455c3f1228370efe1e4eb1ef61674",
+    "ordered_candidate_identity_sha256": "acbd2a9d97063de803f820222effb3fb2e48237df054959e211b999d64a22795",
+    "identity_encoding": "UTF-8 JSON ordered candidate strings, ensure_ascii=True, separators comma/colon",
+    "tokens_shape": [
+      63366,
+      56
+    ],
+    "dca_shape": [
+      63366,
+      56
+    ],
+    "plm_shape": [
+      63366,
+      1280
+    ],
+    "plm_sha256": "87408bf46d3c71d1575628fe61541c4a26a923c666f0ec55922099fd7e04662e",
+    "plm_numeric_recipe": null,
+    "source_artifacts": {
+      "tokens": {
+        "sha256": "0ee50a754bb5aa83ccb724384a1241a90f8f5f08aab0a3834fb38e12abafb9f2",
+        "distributed": false
+      },
+      "dca_features": {
+        "sha256": "7508f3972af352ed4cce74d764e41dc5e6852b6f3bab6e40b55fb45270a72a22",
+        "distributed": false
+      },
+      "public_domain": {
+        "sha256": "72fc7c9915b10b45e111424cb3f6b59fe4ea1ad99e3c8a331dfaa97bd27f00b0",
+        "distributed": false
+      },
+      "fitness_csv": {
+        "sha256": "0a60d0e1855ebe79ad2d03aec5e4c5ae933f3f96d338d34c184ae7366fffc5e6",
+        "distributed": false
+      }
+    },
+    "upstream_acquisition_status": "revision/license/processing documentation pending"
+  }
+}
