@@ -1,0 +1,6 @@
+benchmark,cohort,n,mean_difference,ci95_low,ci95_high,bootstrap_reps,status,interpretation,comparison_type
+GB1,original_main35,35,-0.00790087775514752,-0.053558193771859754,0.040170032109141406,20000,matched,evidence composition and ensemble capacity change together,configuration comparison; not prior-removal-only ablation
+PABP,original_main35,35,-0.12265805017142861,-0.29437818820071426,0.05059316210142828,20000,matched,evidence composition and ensemble capacity change together,configuration comparison; not prior-removal-only ablation
+HIS7,existing_HIS7_dev24,24,-0.0202331077395833,-0.09201251691276037,0.04774997089671875,20000,matched,evidence composition and ensemble capacity change together,configuration comparison; not prior-removal-only ablation
+GRB2,existing_GRB2_transfer24,24,-0.02851703957150128,-0.06505175834072124,0.010890617536393938,20000,matched,evidence composition and ensemble capacity change together,configuration comparison; not prior-removal-only ablation
+TrpB,native70_sensitivity,70,0.02070465495714284,0.004496623843928557,0.03638995802071426,,,"separate sensitivity cohort, not Main-35; capacity and evidence composition change together",configuration comparison; not prior-removal-only ablation

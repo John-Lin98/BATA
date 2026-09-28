@@ -1,0 +1,11 @@
+arm,method,metric,main35_mean_rank,sensitivity_setting_mean_rank,sensitivity_setting,interpretation
+bata,BATA,Final,1.6666666666666667,2.0,GB1 n=70; PABP n=35; TrpB n=70,descriptive rank summary; not a paired cohort effect
+alde,ALDE,Final,3.0,3.0,GB1 n=70; PABP n=35; TrpB n=70,descriptive rank summary; not a paired cohort effect
+evolvepro650,EVOLVEpro-650M,Final,3.0,3.6666666666666665,GB1 n=70; PABP n=35; TrpB n=70,descriptive rank summary; not a paired cohort effect
+reap100,REAP100-650M,Final,3.3333333333333335,2.0,GB1 n=70; PABP n=35; TrpB n=70,descriptive rank summary; not a paired cohort effect
+rf_onehot,RF,Final,4.0,4.333333333333333,GB1 n=70; PABP n=35; TrpB n=70,descriptive rank summary; not a paired cohort effect
+bata,BATA,Query_AUC,2.0,2.3333333333333335,GB1 n=70; PABP n=35; TrpB n=70,descriptive rank summary; not a paired cohort effect
+alde,ALDE,Query_AUC,2.6666666666666665,2.6666666666666665,GB1 n=70; PABP n=35; TrpB n=70,descriptive rank summary; not a paired cohort effect
+evolvepro650,EVOLVEpro-650M,Query_AUC,3.0,3.3333333333333335,GB1 n=70; PABP n=35; TrpB n=70,descriptive rank summary; not a paired cohort effect
+reap100,REAP100-650M,Query_AUC,3.6666666666666665,3.0,GB1 n=70; PABP n=35; TrpB n=70,descriptive rank summary; not a paired cohort effect
+rf_onehot,RF,Query_AUC,3.6666666666666665,3.6666666666666665,GB1 n=70; PABP n=35; TrpB n=70,descriptive rank summary; not a paired cohort effect

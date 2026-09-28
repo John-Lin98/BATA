@@ -13,6 +13,7 @@ CATEGORIES = {
     'manifests': ('frozen reproduction configuration', 'Paper cohorts / external dependency identity / scoped parity evidence'),
     'results': ('paper result summary', 'Main tables / sensitivity / mechanisms / appendix including negative results'),
     'figures': ('figure source', 'Paper figures and their source-data mappings'),
+    'paper_figures': ('final figure reproduction', 'Frozen plotting inputs and scripts for all final paper figures'),
     'docs': ('reader documentation', 'Method execution, results, limitations and source provenance'),
     'licenses': ('third-party attribution', 'Required notices for included attributed code'),
 }

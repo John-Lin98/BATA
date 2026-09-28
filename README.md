@@ -29,7 +29,7 @@ python scripts/verify_results.py
 
 已整理主 35-init、70-seed 敏感性、matched-24 calibration 和 Fine-only/G20 汇总，见 [结果说明](docs/RESULTS.md)。
 HIS7/GRB2 transfer、PABP低预算边界、容量分析与负结果汇总见[附录结果](docs/APPENDIX_RESULTS.md)。
-三张 TikZ 汇总图及数据映射见[图表说明](figures/README.md)；arXiv source package 包含最终论文图。保留正负结果，不混合 cohort。
+三张 TikZ 汇总图及数据映射见[图表说明](figures/README.md)；[最终论文图复现](paper_figures/README.md)提供六张主文图和七张附录图的冻结绘图输入与脚本。保留正负结果，不混合 cohort。
 
 ## Citation
 

@@ -1,0 +1,4 @@
+generated/
+qa/
+!data/
+!data/*.csv

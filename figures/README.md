@@ -20,3 +20,6 @@ that panel as a matched single-component ablation or silently pool cohorts.
 The G20 confirmation rank comes from its separate disjoint confirmation set.
 
 The CSV/JSON files, not rounded TikZ coordinates, are the precision source.
+
+The current paper's complete set of six main and seven appendix PDF figures is
+reproduced from frozen summary CSVs by [`paper_figures`](../paper_figures/README.md).

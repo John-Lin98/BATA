@@ -1,0 +1,5 @@
+objective,cohort,n_per_task,Final_mean_rank,Query_AUC_mean_rank
+G-Rank,matched_objective24,24,3.3333333333333335,3.6666666666666665
+T-Uniform-96,matched_objective24,24,3.0,3.0
+T-DCG-96,matched_objective24,24,1.3333333333333333,1.3333333333333333
+T-DCG-192,matched_objective24,24,2.3333333333333335,2.0

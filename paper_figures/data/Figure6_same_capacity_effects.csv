@@ -1,0 +1,7 @@
+benchmark,alternative,cohort,n,mean_difference,ci95_low,ci95_high,direction,capacity
+GB1,c0_fine_only,same_capacity_ablation24,24,-0.018885171180550765,-0.0675066310969752,0.033262764052669765,BATA minus control,shared assay-head capacity; PABP task-only reuses released EVOLVEpro/RF100 control
+GB1,c22_equal_rank,same_capacity_ablation24,24,0.028789948481548058,-0.008208812450248772,0.06863206983147083,BATA minus control,shared assay-head capacity; PABP task-only reuses released EVOLVEpro/RF100 control
+PABP,c0_fine_only,same_capacity_ablation24,24,0.02951054833333336,-0.20601793610104163,0.26360756006979164,BATA minus control,shared assay-head capacity; PABP task-only reuses released EVOLVEpro/RF100 control
+PABP,c22_equal_rank,same_capacity_ablation24,24,0.13553413216666668,-0.044371960822916674,0.32477582395312493,BATA minus control,shared assay-head capacity; PABP task-only reuses released EVOLVEpro/RF100 control
+TrpB,c0_fine_only,same_capacity_ablation24,24,0.034530567916666685,-0.0006083352999999793,0.07160071914895835,BATA minus control,shared assay-head capacity; PABP task-only reuses released EVOLVEpro/RF100 control
+TrpB,c22_equal_rank,same_capacity_ablation24,24,0.02034920933333334,0.011044914665625006,0.030703630116666696,BATA minus control,shared assay-head capacity; PABP task-only reuses released EVOLVEpro/RF100 control
