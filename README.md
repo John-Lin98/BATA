@@ -1,5 +1,7 @@
 # Feedback-Calibrated Protein Optimization with Batch-Aligned Tail Arbitration
 
+论文预印本：[arXiv:2609.37808](https://arxiv.org/abs/2609.37808)。
+
 BATA 用已测样本的五折折外排序证据，校准 prior-informed 与 task-adaptive 两个预测器，再选择下一批蛋白变体。本仓库提供论文代码、冻结结果汇总、清单和复现说明。主方法为 original M5；Fine-only M20 和 G20 仅作机制分析。
 
 BATA 是根据每轮 assay feedback 重新拟合的 sequential optimizer，不是通用 pretrained checkpoint。相关 reference states 仍为私有资产，并非公开下载；见[范围说明](docs/REFERENCE_STATES.md)。
@@ -33,4 +35,4 @@ HIS7/GRB2 transfer、PABP低预算边界、容量分析与负结果汇总见[附
 
 ## Citation
 
-引用元数据见 [`CITATION.cff`](CITATION.cff)。作者为 Zefeng Lin、Xianyong Fang、Tianfan Fu、Xiaohua Xu。
+请引用 [arXiv:2609.37808](https://arxiv.org/abs/2609.37808)；软件引用元数据见 [`CITATION.cff`](CITATION.cff)。作者为 Zefeng Lin、Xianyong Fang、Tianfan Fu、Xiaohua Xu。
